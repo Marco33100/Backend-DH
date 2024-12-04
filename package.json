@@ -1,26 +1,87 @@
 {
+  
   "name": "backend",
+  
   "version": "1.0.0",
+  
   "main": "index.js",
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+    
+  "dev": "nodemon server.js",
+  
+    
+  "start": "node server.js"
+  
   },
+  
   "author": "",
+  
   "license": "ISC",
-  "description": "",
+  
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "crypto": "^1.0.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.10.2",
-    "nodemailer": "^6.9.14"
+  
+    
+  "@google-analytics/data": "^4.11.0",
+  
+    
+  "bcryptjs": "^2.4.3",
+  
+    
+  "cors": "^2.8.5",
+  
+    
+  "crypto": "^1.0.1",
+  
+    
+  "dotenv": "^16.4.5",
+  
+    
+  "express": "^4.19.2",
+  
+    
+  "jsonwebtoken": "^9.0.2",
+  
+    
+  "mysql2": "^3.11.3",
+  
+    
+  "nodemailer": "^6.9.14"
+  
   },
+  
   "devDependencies": {
-    "nodemon": "^3.1.4"
-  }
+  
+    
+  "nodemon": "^3.1.4"
+  
+  },
+  
+  "description": "",
+  
+  "type": "service_account",
+  
+  "project_id": "agencia-1729808303020",
+  
+  "private_key_id": "273ef72f115cde39f1eeea3177f3ebba08f258ce",
+  
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZbuwCQUZ8FvqD\ndc8l8ogxRbic/46kU/eNmmUQWEuC7YbthvN01IHUf4KclKAiAV8UO74L33wSxFqo\nKRhEtctWVyH39bRiDQ6a5uQuOk3rlCfWLZLrf7BtJ5h5WG8uU42JpcES0r1YzNpA\nx42Kd8D39kGIuC7KnfFd8F+LtvUCDsnpnI92IkZJwax937ONRd+okobL48755Rlz\nDjvoR8n6hu/PWbWnMfoEP+1GTrHCtEFumg57jAHdIkh8VGbZ0kBSYX8Q3v+Y2A2u\n0aKaisdeyKSMzcoNAde+Rq2UJ4JHWTGOrh/VyoJ0FTJq0w764dNQ+2OjMKz0xWuf\nb32hStDDAgMBAAECggEAI5un/x/6BStqCR9Kq1JdhB3bqefvSTjJb14BDWmIYMLS\nOQbEMn1tAg1zmPYvMaUi1TXGNcgwacSTC4q5/Jw6K/f9xKeLrOO923oxQ385fS49\njom2GpxgK/zv+F1rNBOk+ehzZfRtiBHGpxkIwrVnHcTTUbD4/wHntbbm3axgsRC0\nh58ZTDzcecVMROI+I+EXfkv4iBf0kfY66pITsRLf3TLzHAG+xf2+MtPi83kDBmea\nbcCk04QAaEUfK4E8yoR0Cayf+SNaIs+UhkDphsLQxC5bBn7YHpGdf/bj6eSB9Np7\nMImKerE9ZhMpcJxmqEHA7lG+dSgNUYBiitmm8qeuAQKBgQDMWzm8w/xsDVwLTDEr\nvccCqIuu7VNbQSQHpIzZf/NL92C45OtB7vsEVA3xbhfMOFTN2NdvwDnkoS7azq9L\nByU1lxFC6URUyX6UA4ntMw/lCSVrrIVZztw5hqtkFuURFXncX1/Sj/CrdwI8IWMG\nwwfJm2y0YMW8Ci6aBFLw0eAaAQKBgQDANT5oxOD1C+I93AJAGx2wMkC2jwBnkhhr\nS45ICc+ojYqtU6Gdhnf6GNGm47guGlb0UL24gbE7FJb5OhKK7IiXmfvwnlh0oFf6\n41BDRC2tW28brQH6wFf+arNiL1SjwDWx5JHa6kZm6QBawACCif/wgtdB+2e1uAG9\nnUvd9WMCwwKBgB5ZagC7xpAxh7rxzNenLpgZee03t8p0qSotaPGgS/y7N3UeIkY/\nfK4O4ac6Z3Rf5VBQ5OXm0XI/8dpzGZt16zPDRMAALrK83fyTbfd5PuIP8qvECmXl\nD9XHR0rtD4Xy/48X5v45fE+qs/1EJBXL/ysU1xcOzC76ACPFgp/bO4IBAoGBAL+u\nGYAIH0OhR01jdAcUQ6YsZ2bn84JWKu4NmmXzCtlP1mWGCp16tXl/eMzTOiEX+XGK\nd7lh9SozHWCMbmOHAa0WTi8m6pXcNgEo4ilC+75veb2C6n9zhA1fwWcARotLKwEu\nLdrAWddVNBpMcfW8w7XJ9fuCSWnqiCndjQRcLBJbAoGAL3ULJbrtpg/tK5ogkr9S\ns3Bih4Z0FbSknuT+jxnO2oQ/5OcAQB6NfExAOFog8FAOeG7Ilb1pGi1tt5rWQyz8\nx4vrvYpkDfq4cjY7CDbE5jRDICdF9s0sJiCI2YJDLAfG2vmw9fQA35tO+prE9UjG\nxuWwGLVZtXxIaLXC/iufjts=\n-----END PRIVATE KEY-----\n",
+  
+  "client_email": "starting-account-ksxs9k5s5vd7@agencia-1729808303020.iam.gserviceaccount.com",
+  
+  "client_id": "100218264969479047635",
+  
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  
+  "token_uri": "https://oauth2.googleapis.com/token",
+  
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/starting-account-ksxs9k5s5vd7%40agencia-1729808303020.iam.gserviceaccount.com",
+  
+  "universe_domain": "googleapis.com"
 }
